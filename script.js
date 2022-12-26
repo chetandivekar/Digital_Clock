@@ -1,10 +1,14 @@
 let date = new Date;
 let hour  = date.getHours();
-let mainHour = hour - 12;
 let min = date.getMinutes();
 let mainSec = date.getSeconds();
 
-
+if(hour>=12){
+    var mainHour = hour - 12;
+}
+else{
+    mainHour = hour;
+}
 let a = document.getElementById("hour");
 let b = document.getElementById("minute");
 let c = document.getElementById("second");
