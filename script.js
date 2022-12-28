@@ -7,7 +7,7 @@ setInterval(()=>{
     let date = new Date;
 let hour  = date.getHours();
 if(hour>=12){
-    let mainHour = hour - 12;
+    var mainHour = hour - 12;
 }
 else{
     mainHour = hour;
