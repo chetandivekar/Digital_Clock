@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(11, 203, 127, 1) 2%, 
+    rgba(54, 15, 182, 1) 37%, rgba(220, 15, 84, 1) 100%,
+     rgba(0, 212, 255, 1) 100%);;
+
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+@media (width < 600px) {
+   
+
+    body{
+        background: #1DB954;
+    }
+    .content{
+        color: #000;
+    }
+}

@@ -65,6 +65,23 @@ main {
     align-items: center;
 }
 
+.bottom{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+.black{
+    display: none;
+}
+.white{
+    width: 15px;
+    padding-left: 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 @media (width < 600px) {
@@ -89,5 +106,24 @@ main {
 
     body{
         background: #1DB954;
+    }
+    .bottom{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #000;
+    }
+    .link svg{
+        width: 15px;
+    }
+    .footer{
+        display: flex;
+    }
+    .white{
+        display: none;
+    }
+    .black{
+        width: 15px;
+        padding-left: 5px;
+        display: block;
     }
   }
