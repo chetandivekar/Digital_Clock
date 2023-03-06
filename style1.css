@@ -96,3 +96,17 @@ body{
     z-index: 9999;
     /* display: none;*/
 }
+
+.second-hand::before{
+    content: '';
+    width: 3px;
+    border-radius: 8px;
+    height: 48px;
+    background-color: rgb(123, 255, 62);
+    position: absolute;
+    bottom: -24px;
+    /* transform: rotate(90deg); */
+    transform-origin: bottom;
+    z-index: 9999;
+    /* display: none; */
+}
