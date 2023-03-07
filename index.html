@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="analog_clock.css" />
-    <title>Clock</title>
-  </head>
-  <body>
-    <div class="main">
-      <div class="clock">
-        <div class="hour-hand" id="hour"></div>
-        <div class="minute-hand" id="minute"></div>
-        <div class="second-hand" id="second"></div>
-        <span style="--i: 1"><p>|</p></span>
-        <span style="--i: 2"><p>|</p></span>
-        <span style="--i: 3"><p class="straight">3</p></span>
-        <span style="--i: 4"><p>|</p></span>
-        <span style="--i: 5"><p>|</p></span>
-        <span style="--i: 6"><p class="straight">6</p></span>
-        <span style="--i: 7"><p>|</p></span>
-        <span style="--i: 8"><p>|</p></span>
-        <span style="--i: 9"><p class="straight">9</p></span>
-        <span style="--i: 10"><p>|</p></span>
-        <span style="--i: 11"><p>|</p></span>
-        <span style="--i: 12"><p class="straight">12</p></span>
-      </div>
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="digital_clock.css">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <div class="top">
+        <p id="head">Digital Clock</p>
+        <p id="sub-head">Created by chetan</p>
+
     </div>
-  </body>
-  <script src="analog_clock.js"></script>
+   
+    <main>
+        <div class="container">
+            <div id="hour" class="same hour">
+                
+            </div>
+            <div class="same">:</div>
+
+            <div id="minute" class="same minute">
+                
+            </div>
+            <div class="same">:</div>
+
+            <div id="second" class=" second">
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <div class="bottom">Try analog clock</div>
+        <a href="./analog_clock.html"><img class="black" src="./img/link.svg"></a>
+        <a href="./analog_clock.html"><img class="white" src="./img/link1.svg"></a>
+        </div>
+    
+</body>
+<script src="digital_clock.js"></script>
 </html>
