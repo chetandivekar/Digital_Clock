@@ -10,7 +10,6 @@ setInterval(() => {
     let minute = document.getElementById('minute')
     let hour = document.getElementById('hour')
     
-    second.style.transform = `rotate(${sec_rotation}deg)`;
     minute.style.transform = `rotate(${min_rotation}deg)`;
     hour.style.transform = `rotate(${hr_rotation}deg)`;
 

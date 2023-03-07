@@ -91,10 +91,10 @@ body{
     position: absolute;
     top: 52px;
     left: 173px;
-    /* transform: rotate(90deg); */
+    animation: myfirst 60s infinite linear;
+    animation-delay: 1s;
     transform-origin: bottom;
     z-index: 9999;
-    /* display: none;*/
 }
 
 .second-hand::before{
@@ -109,4 +109,13 @@ body{
     transform-origin: bottom;
     z-index: 9999;
     /* display: none; */
+}
+
+@keyframes myfirst {
+    0%{
+        transform: rotate(deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
